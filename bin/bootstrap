@@ -12,7 +12,7 @@ module Repave
 
       Dir.chdir workspace do
         puts "Cloning the repave repository"
-        system "git clone https://github.com/infews/workstation_repave.git"
+        system "git clone https://github.com/professor/workstation_repave.git"
       end
 
       puts "You may now run bin/repave"
