@@ -1,30 +1,33 @@
 cask_args appdir: "/Applications"
 
-tap 'git-duet/tap'
+# tap 'git-duet/tap'
 tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-drivers'
 tap 'thoughtbot/formulae'
+tap 'pivotal/tap'
 
-brew 'ack'
-brew 'aria2'
+# brew 'ack'
+# brew 'aria2'
 brew 'chruby'
 brew 'direnv'
-brew 'elixir'
+brew 'iterm'
+# brew 'elixir'
 brew 'git'
-brew 'git-duet'
+# brew 'git-duet'
+brew 'git-author'
 brew 'jq'
 brew 'libxml2'
 brew 'libxslt'
 brew 'mas'
-brew 'mysql'
-brew 'node'
+# brew 'mysql'
+# brew 'node'
 brew 'postgresql'
-brew 'pstree'
-brew 'qt'
-brew 'rcm'
+# brew 'pstree'
+# brew 'qt'
+# brew 'rcm'
 brew 'ssh-copy-id'
 brew 'starship'
-brew 'ruby-install'
+# brew 'ruby-install'
 brew 'the_silver_searcher'
 brew 'the_platinum_searcher'
 brew 'tree'
@@ -32,39 +35,40 @@ brew 'watch'
 brew 'wget'
 
 #cask 'aerial'
-cask 'atom'
-cask 'deckset'
+# cask 'atom'
+# cask 'deckset'
 cask 'dropbox'
-cask 'fluid'
+# cask 'fluid'
 cask 'flycut'
-cask 'font-fontawesome'
-cask 'font-fira-code-nerd-font'
-cask 'font-source-code-pro'
-cask 'font-jetbrains-mono-nerd-font'
-cask 'font-xkcd'
-cask 'font-xkcd-script'
-cask 'fujitsu-scansnap-home'
+# cask 'font-fontawesome'
+# cask 'font-fira-code-nerd-font'
+# cask 'font-source-code-pro'
+# cask 'font-jetbrains-mono-nerd-font'
+# cask 'font-xkcd'
+# cask 'font-xkcd-script'
+# cask 'fujitsu-scansnap-home'
 cask 'github'
 cask 'google-chrome'
 cask 'google-drive'
-cask 'java'
+# cask 'java'
 cask 'intellij-idea-ce'
 #cask 'macs-fan-control' # only needed for Mac Redwood (to turn off Disk Fan)
-cask 'obsidian'
+# cask 'obsidian'
 cask 'quicksilver'
 cask 'rubymine'
-cask 'slack'
-cask 'slate'
-cask 'vmware-fusion' # Only at home
-cask 'xquartz'
-cask 'xscope'
+cask 'shiftit'
+# cask 'slack'
+# cask 'slate'
+# cask 'vmware-fusion' # Only at home
+# cask 'xquartz'
+# cask 'xscope'
 cask 'zoom'
 
 # DWF's Mac App Store apps YMMV; mas list can get your ID's for you
-mas "Daisy Disk", id: 411643860
-mas "LastPass", id: 926036361
-mas "Marked 2", id: 890031187
-mas "Slack", id: 803453959
-mas "SomaFM", id: 449155338
-mas "Soulver", id: 413965349
-mas "ToDoist", id: 585829637
+# mas "Daisy Disk", id: 411643860
+# mas "LastPass", id: 926036361
+# mas "Marked 2", id: 890031187
+# mas "Slack", id: 803453959
+# mas "SomaFM", id: 449155338
+# mas "Soulver", id: 413965349
+# mas "ToDoist", id: 585829637

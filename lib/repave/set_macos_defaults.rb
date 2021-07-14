@@ -4,7 +4,7 @@ module Repave
 
     def run_task
       puts info_message("Setting various MacOS defaults.")
-      system File.join(ASSETS_PATH, "macos")
+      system File.join(ASSETS_PATH, "macos-todd")
     end
   end
 end
