@@ -25,8 +25,12 @@ module Repave
         "Reveal IP address, hostname, OS version, etc. when clicking the clock in the login window":
           "sudo defaults write /Library/Preferences/com.apple.loginwindow AdminHostInfo HostName",
 
-        "Make the clock analog":
-          "defaults write com.apple.menuextra.clock IsAnalog -bool true && killall -KILL SystemUIServer"
+        "Make the clock digital":
+          # see http://www.unicode.org/reports/tr35/tr35-31/tr35-dates.html#Date_Format_Patterns
+          "defaults write com.apple.menuextra.clock DateFormat 'EEE MMM d  h:mm:ss a'",
+
+        # "Make the clock analog":
+        #   "defaults write com.apple.menuextra.clock IsAnalog -bool true && killall -KILL SystemUIServer"
       }
     end
   end
