@@ -12,7 +12,7 @@ module Repave
       Homebrew,
       QuicksilverYosemite,
       JetbrainsPrefs,
-      SetMacOsDefaults,
+#      SetMacOsDefaults,
     ]
 end
 

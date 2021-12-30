@@ -17,7 +17,7 @@ module Repave
         system "git pull"
 
         puts info_message('Installing Jetbrains IDE Prefs for all installed IDEs')
-        system "cli/bin/ide_prefs install"
+        system "cli/bin/install_all"
       end
     end
   end
